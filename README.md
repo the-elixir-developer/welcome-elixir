@@ -4,6 +4,8 @@
 
 ![](./assets/slide-005.png)
 
+Pequeña guía introductoria en español sobre Elixir. Si este contenido es útil para ti, considera dejar una ⭐️ para saberlo.
+
 ## 1. Erlang como lenguaje de programación
 
 - Elixir pertenece a la familia de los lenguajes de la máquina virtual de Erlang BEAM.
@@ -82,6 +84,37 @@ La gran noticia es que todas las capacidades de la BEAM están disponibles en El
 
 ## 8. Sistemas en la BEAM
 
-Por lo que con Elixir es posible crear una aplicación sin pensar en nada de concurrencia y distribución,
+Con Elixir es posible crear una aplicación sin pensar en nada de concurrencia y distribución, estos features son una opción que puedes implementar en cierto momento dado, ya que son capacidades que te otorga la máquina virtual de Erlang.
 
 ![](./assets/slide-021.png)
+
+## 9. El ecosistema de Elixir
+
+- [Phoenix Framework](https://www.phoenixframework.org/)
+- [Ecto Db](https://hexdocs.pm/ecto/Ecto.html)
+- [Nx](https://github.com/elixir-nx/)
+- [Nerves](https://nerves-project.org/)
+- [Native LiveViews](https://native.live/)
+
+![](./assets/slide-022.png)
+
+## 10. Una app en elixir.
+
+![](./assets/slide-023.png)
+
+## 11. Phoenix Live views
+
+En el 2019 se anunció LiveViews como un nuevo componente para crear features en el front-end usando solamente Elixir y dejándo de lado Javascript. Este proyecto funciona a traves de websockets, cada cliente se conecta a un socket, y por medio de este es como se va actualizando la vista en el navegador. 
+
+![](./assets/slide-024.png)
+
+Este es un buen ejemplo de cómo hacer uso de procesos y OTP para diseñar componentes, ya que detrás de cada conexión por socket, hay un proceso de Erlang que se encarga de administrarlo. 
+
+![](./assets/slide-025.png)
+
+## 12. Productividad con Elixir
+
+![](./assets/slide-026.png)
+
+## 13. ¿Por donde comenzar?
+
