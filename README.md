@@ -6,6 +6,8 @@
 
 Pequeña guía introductoria en español sobre Elixir. Si este contenido es útil para ti, considera dejar una ⭐️ para saberlo.
 
+Si estás interesado en tomar un taller de Elixir puedes dejarnos tus datos aquí: [Taller Elixir Introductorio](https://forms.gle/YhDN56tEUDejvWmR6)
+
 ## 1. Erlang como lenguaje de programación
 
 - Elixir pertenece a la familia de los lenguajes de la máquina virtual de Erlang BEAM.
@@ -118,3 +120,27 @@ Este es un buen ejemplo de cómo hacer uso de procesos y OTP para diseñar compo
 
 ## 13. ¿Por donde comenzar?
 
+Si deseas comenzar a estudiar Elixir como lenguaje de programación te recomiendo mucho comenzar por lo básico, es decir, por entender el lenguaje como tal, adoptar el estilo de la programación funcional y sentirte cómodo para resolver ejercicios de lógica, aprender Unit Testing te ayudará muchísimo. Una vez que tengas confianza en el lenguaje puedes seguir al uso de Phoenix Framework, conexión a base de datos y despliegue. Con esto cubrirás buena parte para realizar aplicaciones completas, pero te llevará un tiempo. Luego puedes extenderte al estudio de Erlang, procesos y OTP, que en mi opinión es algo más complejo.
+
+**Elixir Básico**
+- [Elixir in Action](https://www.manning.com/books/elixir-in-action-second-edition)
+- [Programming Elixir by Dave Thomas](https://pragprog.com/titles/elixir16/programming-elixir-1-6/)
+- [Programmer Passport Elixir by Bruce Tate](https://pragprog.com/titles/passelixir/programmer-passport-elixir/)
+- [Elixir Introducción para Alquimistas por Manuel Rubio](https://altenwald.com/es/book/elixir)
+- [Adopting Elixir](https://pragprog.com/titles/tvmelixir/adopting-elixir/)
+
+**Frameworks**
+- [Programming Phoenix](https://pragprog.com/titles/phoenix14/programming-phoenix-1-4/)
+- [Programming Ecto](https://pragprog.com/titles/wmecto/programming-ecto/)
+- [Testing Elixir](https://pragprog.com/titles/lmelixir/testing-elixir/)
+
+**Erlang, la BEAM y OTP**
+- [Designing Elixir systems with OTP](https://pragprog.com/titles/jgotp/designing-elixir-systems-with-otp/)
+- [Concurrent Data processing in Elixir](https://pragprog.com/titles/sgdpelixir/concurrent-data-processing-in-elixir/)
+- [Erlang/OTP Un Mundo Concurrente](https://altenwald.com/es/book/erlang-i)
+- [Introducing Erlang](https://www.oreilly.com/library/view/introducing-erlang/9781449331757/)
+- [Learn You Some Erlang for great good!](https://learnyousomeerlang.com/)
+
+**Ejercicios y otros sitios de apoyo**
+- [Exercism Elixir](https://exercism.org/tracks/elixir)
+- [Elixir School](https://elixirschool.com/es/)
