@@ -144,3 +144,19 @@ Si deseas comenzar a estudiar Elixir como lenguaje de programación te recomiend
 **Ejercicios y otros sitios de apoyo**
 - [Exercism Elixir](https://exercism.org/tracks/elixir)
 - [Elixir School](https://elixirschool.com/es/)
+
+## 14. Próximos eventos y más información
+
+![image](https://github.com/the-beam-developer/welcome-elixir/assets/17634377/a7f55678-5c8a-4d67-a1bf-eac44bce97b4)
+
+`Conferencias`
+- [Code BEAM America](https://codebeamamerica.com/)
+- [Elixir Conf EU Lisbon](https://www.elixirconf.eu/)
+- [Elixir Conf US](https://2023.elixirconf.com/)
+
+`Erlang Solutions`
+- [Certificación Elixir y Erlang ESL](https://www.erlang-solutions.com/landings/landing-certification-2/)
+- [Code Sync YouTube](https://www.youtube.com/@CodeSync)
+- [Blog ESL](https://www.erlang-solutions.com/blog/)
+
+  
