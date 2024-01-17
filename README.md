@@ -8,6 +8,8 @@ Pequeña guía introductoria en español sobre Elixir. Si este contenido es úti
 
 Si estás interesado en tomar un taller de Elixir puedes dejarnos tus datos aquí: [Taller Elixir Introductorio](https://forms.gle/YhDN56tEUDejvWmR6)
 
+¿Quieres asistir al workshop de Visual Thinking? Aquí te puedes registrar: [Registro](https://www.eventbrite.com.mx/e/visual-thinking-essentials-workshop-tickets-794645956447?aff=erelexpmlt) 
+
 ## 1. Erlang como lenguaje de programación
 
 - Elixir pertenece a la familia de los lenguajes de la máquina virtual de Erlang BEAM.
@@ -51,6 +53,8 @@ Los `procesos` son un concepto central en la elaboración de sistemas en la BEAM
 ![](./assets/slide-013.png)
 
 ![](./assets/slide-014.png)
+
+Si quieres conocer más de procesos puedes leer este blog post: [Understanding processes for elixir developers | ESL Blog](https://www.erlang-solutions.com/blog/understanding-processes-for-elixir-developers/)
 
 ## 4. Elixir como lenguaje de la BEAM
 
@@ -144,6 +148,10 @@ Si deseas comenzar a estudiar Elixir como lenguaje de programación te recomiend
 **Ejercicios y otros sitios de apoyo**
 - [Exercism Elixir](https://exercism.org/tracks/elixir)
 - [Elixir School](https://elixirschool.com/es/)
+
+**Blog Posts by Carlo Gilmar**
+- [Learning IoT with Elixir](https://medium.com/@carlogilmar/learning-iot-first-steps-with-elixir-310c4ad4ab15)
+- [Phoenix Live Views](https://medium.com/@carlogilmar/phoenix-live-view-what-is-it-a218b2a5fcaa)
 
 ## 14. Próximos eventos y más información
 
