@@ -6,10 +6,6 @@
 
 Pequeña guía introductoria en español sobre Elixir. Si este contenido es útil para ti, considera dejar una ⭐️ para saberlo.
 
-Si estás interesado en tomar un taller de Elixir puedes dejarnos tus datos aquí: [Taller Elixir Introductorio](https://forms.gle/YhDN56tEUDejvWmR6)
-
-¿Quieres asistir al workshop de Visual Thinking? Aquí te puedes registrar: [Registro](https://www.eventbrite.com.mx/e/visual-thinking-essentials-workshop-tickets-794645956447?aff=erelexpmlt) 
-
 ## 1. Erlang como lenguaje de programación
 
 - Elixir pertenece a la familia de los lenguajes de la máquina virtual de Erlang BEAM.
