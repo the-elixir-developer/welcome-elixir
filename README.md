@@ -145,6 +145,10 @@ Si deseas comenzar a estudiar Elixir como lenguaje de programación te recomiend
 - [Exercism Elixir](https://exercism.org/tracks/elixir)
 - [Elixir School](https://elixirschool.com/es/)
 
+**Gleam Lang**
+- [Docs](https://gleam.run/)
+- [Tour](https://tour.gleam.run/)
+
 **Blog Posts by Carlo Gilmar**
 - [Learning IoT with Elixir](https://medium.com/@carlogilmar/learning-iot-first-steps-with-elixir-310c4ad4ab15)
 - [Phoenix Live Views](https://medium.com/@carlogilmar/phoenix-live-view-what-is-it-a218b2a5fcaa)
