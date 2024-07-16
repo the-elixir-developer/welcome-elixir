@@ -64,6 +64,25 @@ A diferencia de la Orientación a Objetos, Elixir maneja módulos que contienen 
 
 ![](./assets/slide-016.png)
 
+```elixir
+defmodule Engine.CustomerContext do # Definición de un módulo
+  alias Engine.Customer
+  alias Engine.Repo
+
+  def create_customer(attrs) do # Función pública
+    %Customer{}
+    |> Customer.changeset(attrs)
+    |> validate_changeset()
+    |> Repo.insert()
+  end
+
+  defp validate_changeset(changeset) do # Función privada, solo accesible dentro de este módulo
+    #...
+  end
+
+end
+```
+
 Una vez que construyes tus módulos, puedes invocarlos entre ellos, de igual forma las dependencias externas son módulos que invocas directamente en tu proyecto. De forma muy sencilla así se ve la interacción entre unos cuantos módulos:
 
 ![](./assets/slide-017.png)
