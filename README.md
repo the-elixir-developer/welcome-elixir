@@ -1,6 +1,8 @@
-# Welcome Elixir :: A Quick Introduction to Elixir 🚀
+<h1 align="center"> Welcome Elixir :: A Quick Introduction to Elixir 🚀 </h1>
 
-> Guieline to unleash your developer's journey using Elixir. 🎇
+<p align="center">
+Guideline to unleash your developer's journey using Elixir. 🎇
+</p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e3949e53-45ba-4ea4-9df7-39509eadb3bb" width="50%">
