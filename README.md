@@ -1,4 +1,4 @@
-# Welcome Elixir
+# Welcome Elixir :: A Quick Introduction to Elixir 🚀
 
 > Guieline to unleash your developer's journey using Elixir. 🎇
 
@@ -8,3 +8,5 @@
 
 - [Versión en Español](./spanish.md)
 - [Version in English](./english.md)
+
+> Written by @carlogilmar
