@@ -10,7 +10,6 @@ Guideline to start to unleash your developer's journey using Elixir. 🎇
 </p>
 
 - [Versión en Español](./spanish.md)
-- [Version in English](./english.md)
 
 > Written by @carlogilmar
 
