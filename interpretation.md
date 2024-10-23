@@ -10,7 +10,7 @@ One the most useful skills as software developers is the ability to read code, b
 
 The following snippet is an elixir function from a module:
 
-````elixir`
+```elixir
 defmodule PipelineExample do
   def process_numbers(numbers) do
     numbers
@@ -30,7 +30,7 @@ You can:
 
 <img width="1046" alt="image" src="https://github.com/user-attachments/assets/4d0caf70-ebcd-4209-91c3-9ebd8c95b1d2">
 
-Next example:
+Next examples:
 
 ```elixir
 defmodule BasicPipeline do
@@ -76,3 +76,8 @@ defmodule ListPipeline do
   defp filter_evens(list), do: Enum.filter(list, &(rem(&1, 2) == 0))
 end
 ```
+
+Takeaways:
+- Elixir needs modules and functions (publics and privates).
+- Functions receive input arguments and transform into something different (output).
+- Try to be focused on understand how the flow works in general. Don't worry if this looks confused.
