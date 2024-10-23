@@ -1,3 +1,5 @@
+![Ilustración_sin_título](https://github.com/user-attachments/assets/bf5d09b5-d56c-44ba-8706-28618c2d6a1f)
+
 # Setup Elixir and Firsts steps
 ## Content 
 
