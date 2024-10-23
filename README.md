@@ -173,5 +173,31 @@ You can find simple and powerful resources at:
   </tr>
 </table>
 
+Or if you enjoy watching talks, I recommend you:
 
+<table width="100%">
+  <tr>
+    <td width="33%">
+      <p align="center">
+        <img src="https://github.com/user-attachments/assets/00213c11-01b6-4800-8671-fe535ec7e950" width="100%"/>
+        </br>
+        <a href="https://www.youtube.com/watch?v=JvBT4XBdoUE&t=1s"> Soul of Erlang and elixir</a>
+      </p>
+    </td>
+      <td width="33%">
+      <p align="center">
+        <img src="https://github.com/user-attachments/assets/67105a3c-9cbc-4244-8f3d-adfe6c7f6555" width="100%"/>
+        </br>
+        <a href="https://www.youtube.com/watch?v=rt8h_xeESLg&t"> Erlang Rationale </a>
+      </p>
+    </td>
+      <td width="33%">
+      <p align="center">
+        <img src="https://github.com/user-attachments/assets/a06c255c-6130-432f-adc0-ba98bdd225ff" width="100%"/>
+        </br>
+        <a href="https://www.youtube.com/watch?v=agkXUp0hCW8&t=1s"> Design Patterns in Elixir</a>
+      </p>
+    </td>
+  </tr>
+</table>
 
