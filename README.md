@@ -1,8 +1,9 @@
 <h1 align="center"> Welcome Elixir :: A Quick Introduction to Elixir 🚀 </h1>
 
 <p align="center">
-Guideline to start to unleash your developer's journey using Elixir. 🎇  
-</br> A good place to be introduced in the Elixir world.
+  Guideline to start to unleash your developer's journey using Elixir. 🎇  
+  </br> A good place to be introduced in the Elixir world.
+  </br> Drawings and content by <b>@carlogilmar Visual Partner-Ship</b> 
 </p>
 
 <p align="center">
@@ -11,9 +12,13 @@ Guideline to start to unleash your developer's journey using Elixir. 🎇
 
 Are you interesting on **workshops or trainings**? 🚀 Let your contact information here! [Workshop information form](https://forms.gle/pYVXX2ciYJKUqsHQA)
 
-- [Versión en Español](./spanish.md)
+| Table of contents |
+|:------------------:|
+| [Introducción en Español](./spanish.md) |
+| [Welcome Elixir Introduction](#welcome-elixir) |
+| [Learning Resources](#learning-resources) |
 
-> Written by @carlogilmar
+## Welcome Elixir
 
 <table width="100%">
   <tr>
@@ -125,7 +130,7 @@ Are you interesting on **workshops or trainings**? 🚀 Let your contact informa
   </tr> 
 </table>
 
-## Where to start your journey?
+## Learning Resources
 
 I strongly recommend **learn by yourself** or maybe create a study group with your friends and colleagues. 
 
