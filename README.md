@@ -9,6 +9,8 @@ Guideline to start to unleash your developer's journey using Elixir. 🎇
   <img src="https://github.com/user-attachments/assets/e3949e53-45ba-4ea4-9df7-39509eadb3bb" width="50%">
 </p>
 
+Are you interesting on **workshops or trainings**? 🚀 Let your contact information here! [Workshop information form](https://forms.gle/pYVXX2ciYJKUqsHQA)
+
 - [Versión en Español](./spanish.md)
 
 > Written by @carlogilmar
