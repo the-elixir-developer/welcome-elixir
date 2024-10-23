@@ -18,6 +18,8 @@
 
 # 1. Introduction
 
+<img width="1048" alt="image" src="https://github.com/user-attachments/assets/9dd65729-1b56-401d-980c-b7e4dfc316b5">
+
 ## 1 Setup
 
 To be able to run your code you must need:
@@ -51,10 +53,14 @@ asdf install elixir 1.16.0-otp-26
 2. In your command line after install elixir you can type `iex`.
 3. Print your first Hello World: `IO.puts("Hello World from the Elixir Workshop for beginners")`.
 
+![flow](https://github.com/user-attachments/assets/676580f7-3ae8-4fe7-b21c-696af5a8f18c)
+
 `Scripting`
 1. To run code using Elixir, you need to create a file `hello_world.exs`.
 2. In this file please save this line: `IO.puts("Hello World - Script Mode")`.
 3. To run this code just type: `elixir hello_world.exs`.
+
+![flow](https://github.com/user-attachments/assets/9da59ce7-5927-4c39-b612-490b4823ad62)
 
 ## 3 Modules and Functions
 
@@ -73,6 +79,10 @@ defmodule CakeFactory do
 end
 ```
 
-4. Open an `iex` session. Charge your script: `c "cake_factory.exs"`.
+4. Open an `iex` session. Charge your script: `c "cake_factory.exs"`. (Also you can copy the code and paste in the iex session)
 5. Run your function: `CakeFactory.create_cake()`.
+
+![flow](https://github.com/user-attachments/assets/e3cef66e-f549-4ec0-9d52-46bab77080df)
+
+
 
