@@ -17,7 +17,10 @@ Are you interesting on **workshops or trainings**? 🚀 Let your contact informa
 | [Introducción en Español](./spanish.md) |
 | [Welcome Elixir Introduction](#welcome-elixir) |
 | [Learning Resources](#learning-resources) |
-| [Elixir Setup First Steps](./setup.md) |
+| `Code Guidelines 🧑🏻‍💻` |
+| [I Elixir Setup First Steps](./setup.md) |
+| [II Code Interpretation](./interpretation.md) |
+| [IV Code Creation](./creation.md) |
 
 ## Welcome Elixir
 
