@@ -17,6 +17,7 @@ Are you interesting on **workshops or trainings**? 🚀 Let your contact informa
 | [Introducción en Español](./spanish.md) |
 | [Welcome Elixir Introduction](#welcome-elixir) |
 | [Learning Resources](#learning-resources) |
+| [The Erlang Ecosystem Talks Graphic Recordings](https://github.com/the-elixir-developer/erlang_ecosystem) |
 | `Code Guidelines 🧑🏻‍💻` |
 | [I Elixir Setup First Steps](./setup.md) |
 | [II Code Interpretation](./interpretation.md) |
