@@ -113,15 +113,13 @@ Guideline to start to unleash your developer's journey using Elixir. 🎇
       </p>
     </td> 
   </tr>
-    <!--- Separator ---!>
+  <!--- Separator ---!>
   <tr>
-    <td width="50%">
+    <td width="100%" colspan=2>
       <img width="1053" alt="image" src="https://github.com/user-attachments/assets/9b73e9b7-5c72-48bb-a9d4-b9e3d3606f47">
-    </td>
-    <td>
       <p align="center">
         Learn Elixir means learn to become confident in the <b>functional programming</b> approach. Also Elixir provides you many complementary tools to improve your developer journey. 
       </p>
     </td> 
-  </tr>    
+  </tr> 
 </table>
