@@ -123,3 +123,56 @@ Guideline to start to unleash your developer's journey using Elixir. 🎇
     </td> 
   </tr> 
 </table>
+
+## Where to start your journey?
+
+I strongly recommend **learn by yourself** or maybe create a study group with your friends and colleagues. 
+
+You can find simple and powerful resources at:
+1. I recommend you read the official documentation https://hexdocs.pm/elixir/introduction.html
+2. https://elixirschool.com/en The **Elixir School** have good lessons to learn Elixir basics.
+3. You can practice code exercises and get feedback from mentors in https://exercism.org/tracks/elixir
+4. If you enjoy reading code, maybe you'll enjoy watch Jose Valim in action solving Advent of Code: https://www.youtube.com/watch?v=mDxJjqx5-ns&list=PLNP8vc86_-SOV1ZEvX_q9BLYWL586zWnF
+5. If you want premium learning resources, Bruce Tate can teach you in Grox.io https://grox.io/ 
+
+<table width="100%">
+  <tr>
+    <td width="50%">
+      <p align="center">
+        <img src="https://github.com/user-attachments/assets/27c1f631-7fc0-4261-8aaf-a33fb2e84e97" width="60%"/>
+      </p>
+    </td>
+    <td>
+      <p align="center">
+        Maybe the most interesting and recommended book for beginners. Saša Jurić explains with detail what it's Elixir and teach you the Elixir's way.
+      </p>
+    </td>
+  </tr>
+    <tr>
+    <td width="50%">
+      <p align="center">
+        <img src="https://github.com/user-attachments/assets/ddccfb74-23d1-45d1-8a48-e2f46805dd09" width="60%"/>
+      </p>
+    </td>
+    <td>
+      <p align="center">
+        A book from 2013, it's always a pleasure read Joe Armstrong. This book is focused on Erlang. 
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <p align="center">
+        <img src="https://github.com/user-attachments/assets/b9e483ba-ad91-463f-a0dd-6d46693b8a22" width="60%"/>
+      </p>
+    </td>
+    <td>
+      <p align="center">
+        Jose Valim and Bruce tate wrote this awesome book to show you the Elixir's way.
+      </p>
+    </td>
+  </tr>
+</table>
+
+
+
