@@ -13,25 +13,7 @@
 - `3` Modules and functions
   - Modules
   - Public and private functions
-
-**II. Operators**  
-- Data Types: integers, floats, booleans, atoms, strings.
-- Operations
-- Pattern Matching
-- Control Structures
-  - if/else
-  - cond
-  - with
-  - case
-- Pipe Operator
-- Enum Module
-- Comprehensions
-
-**III. Running your Code**
-- Phoenix LiveBook
-- Mix Tool 
-- Unit Tests
-
+  
 --- 
 
 # 1. Introduction
@@ -93,11 +75,4 @@ end
 
 4. Open an `iex` session. Charge your script: `c "cake_factory.exs"`.
 5. Run your function: `CakeFactory.create_cake()`.
-6. Add a private function to print another message.
-7. Try again your code.
 
-```elixir
-defp print_private_message() do
-  IO.puts "Cake Factory Rights Reserved :: 2024 :: The Elixir Developer Workshop"
-end
-```
