@@ -135,6 +135,8 @@ Are you interesting on **workshops or trainings**? 🚀 Let your contact informa
   </tr> 
 </table>
 
+![](https://github.com/user-attachments/assets/9dd02e39-00f5-49f8-bc29-05a4b0cd835f)
+
 ## Learning Resources
 
 I strongly recommend **learn by yourself** or maybe create a study group with your friends and colleagues. 
