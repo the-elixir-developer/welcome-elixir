@@ -21,7 +21,8 @@ Are you interesting on **workshops or trainings**? 🚀 Let your contact informa
 | `Code Guidelines 🧑🏻‍💻` |
 | [I Elixir Setup First Steps](./setup.md) |
 | [II Code Interpretation](./interpretation.md) |
-| [IV Code Creation](./creation.md) |
+
+Open to contributions and collaborarion! Let's create together a better learning experience!
 
 ## Welcome Elixir
 
