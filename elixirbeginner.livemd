@@ -1,0 +1,272 @@
+# The Elixir Beginner
+
+```elixir
+Mix.install([
+  {:kino, "~> 0.16.0"}
+])
+```
+
+## 🧱 1. All it's about functions!
+
+<img src="https://raw.githubusercontent.com/the-elixir-developer/welcome-elixir/refs/heads/main/assets/ElixirBeginner-1.png" width="80%" />
+
+<!-- livebook:{"break_markdown":true} -->
+
+Let's implement a simple module like this:
+
+```mermaid
+graph TB
+    subgraph Bike
+        create_bike/1
+    end
+```
+
+`elixir implementation`
+
+<!-- livebook:{"force_markdown":true} -->
+
+```elixir
+defmodule Bike do
+  
+  def create_bike(id) do
+    %{id: id, name: "bike-#{id}"}
+  end
+  
+end
+```
+
+```elixir
+defmodule Bike do
+  
+  @doc """
+    This function creates a 
+     new bike map by a given ID
+
+     iex> Bike.create_bike(1)
+
+    Returns
+      %{id: 1, name: "bike-1"} 
+  """
+  @spec create_bike(integer()) 
+    :: %{id: integer(), name: String.t()}
+  def create_bike(id) do
+    %{id: id, name: "bike-#{id}"}
+  end
+  
+end
+
+# Bikes.create_bike(1) 
+```
+
+Let's create a new module to create many bikes by a given number.
+
+```mermaid
+graph TB
+    subgraph Bikes
+        create_bike/1
+    end
+
+    subgraph Station
+        create_bikes/1
+    end
+```
+
+<p align="center" style="font-size:200%; font-family: 'Courier New', monospace;">
+In Elixir you'll find code execution inside functions that belong to a Module.
+</p>
+
+```elixir
+defmodule Station do
+  @moduledoc """
+    This module is for create all the bikes.
+  """
+
+  @doc """
+    iex> Station.create_bikes(10)
+  """
+  def create_bikes(number) do
+    Enum.map(1..number, 
+      fn index -> 
+        Bike.create_bike(index) # Use the Bike module
+      end)
+  end
+  
+end
+
+10 |> Station.create_bikes() |> Kino.DataTable.new()
+```
+
+## ⭐️ 2. Immutability
+
+<img src="https://raw.githubusercontent.com/the-elixir-developer/welcome-elixir/refs/heads/main/assets/ElixirBeginner-2.png" width="80%" />
+
+In languages like JavaScript is common find this:
+
+```javascript
+let bike = { id: "bike-1" };
+bike.station = "station 1"; // Direct mutation
+// obj -> {  id: "bike-1", station: "station 1" }
+```
+
+Immutability is one of the core principles of the Erlang VM and the Erlang ecosystem
+
+<p align="center" style="font-size:200%; font-family: 'Courier New', monospace;">
+An immutable data structure cannot be changed after it’s created.
+</p>
+
+<!-- livebook:{"force_markdown":true} -->
+
+```elixir
+
+#### 1. You have a bike
+bike = %{id: "bike-1"}
+
+#### 2. Add a new key to the bike map
+Map.put(bike, :station, "station-1")
+
+#### 3. bike is not going to change
+bike # %{id: "bike-1"}
+
+#### Step 2 is going to create a new map
+%{id: "bike-1", station: "station-1"}
+```
+
+```elixir
+bike = %{id: "bike-1"}
+
+bike_with_station = Map.put(bike, :station, "station-1")
+
+bike_with_tag = Map.put(bike_with_station, :tag, "station-tag-1")
+
+bike_with_availability = Map.put(bike_with_tag, :availability, 100)
+
+
+```
+
+## 🍰 3. Data Transformation
+
+<img src="https://raw.githubusercontent.com/the-elixir-developer/welcome-elixir/refs/heads/main/assets/ElixirBeginner-3.png" width="80%" />
+
+<p align="center" style="font-size:200%; font-family: 'Courier New', monospace;">
+ Since you can't modify data once it's created, then you need to transform it.
+</p>
+
+```elixir
+defmodule MyApp.Bike do
+  def create_bike(id) do
+    %{id: id, name: "bike-#{id}"}
+  end
+
+  def add_status(bike, status) do
+    Map.put(bike, :status, status)
+  end
+
+  def add_tag(%{id: id, status: status} = bike) do
+    Map.put(bike, :tag, "##{id}-#{status}")
+  end
+end
+```
+
+```elixir
+## Data transformation
+id = "1"
+new_bike = MyApp.Bike.create_bike(id)
+bike_with_status = MyApp.Bike.add_status(new_bike, "available")
+bike_with_status_and_tag = MyApp.Bike.add_tag(bike_with_status)
+```
+
+```elixir
+## Data transformation using pipe operator
+"1"
+|> MyApp.Bike.create_bike() #step 1
+|> MyApp.Bike.add_status("available") #step 2
+|> MyApp.Bike.add_tag() #step 3
+```
+
+<!-- livebook:{"force_markdown":true} -->
+
+```elixir
+defmodule MyApp2.Bikes do
+  @moduledoc """
+  The Bikes context — handles business logic and persistence.
+  """
+  alias MyApp.Repo
+  alias MyApp.Bikes.Bike
+
+  # CREATE
+  def create_bike(attrs \\ %{}) do
+    %Bike{}
+    |> Bike.changeset(attrs)
+    |> Repo.insert()
+  end
+
+  # READ
+  def list_bikes do
+    Repo.all(Bike)
+  end
+
+  def get_bike!(id), do: Repo.get!(Bike, id)
+
+  # UPDATE
+  def update_bike(%Bike{} = bike, attrs) do
+    bike
+    |> Bike.changeset(attrs)
+    |> Repo.update()
+  end
+
+  # DELETE
+  def delete_bike(%Bike{} = bike) do
+    Repo.delete(bike)
+  end
+end
+```
+
+<!-- livebook:{"break_markdown":true} -->
+
+<img src="https://raw.githubusercontent.com/the-elixir-developer/welcome-elixir/refs/heads/main/assets/ElixirBeginner-4.png" width="80%" />
+
+## ⚽️ 4. Concurrency Oriented Programming
+
+```elixir
+
+live_book_process = self()
+
+## Raw Process 
+spawn(fn ->
+  bikes = Station.create_bikes(10)
+  send(live_book_process, bikes)
+end)
+
+receive do
+  msg -> IO.inspect msg
+end
+```
+
+```mermaid
+sequenceDiagram
+    autonumber
+    LiveBook->>Process: create process
+    Process->>Process: create bikes
+    Process-->>LiveBook: bikes created
+```
+
+<img src="https://www.erlang-solutions.com/wp-content/uploads/2022/04/1.png" />
+
+<img src="https://www.erlang-solutions.com/wp-content/uploads/2022/04/2.png" />
+
+```elixir
+
+Enum.each(1..10, fn idx -> 
+  pid = spawn(fn ->
+    receive do
+      {:create_bike, id} -> IO.inspect Bike.create_bike(id)
+    end
+  end)
+
+  Process.send(pid, {:create_bike, idx}, [])
+end)
+
+
+
+
+```
